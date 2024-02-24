@@ -1,0 +1,46 @@
+
+--Starting 
+You need to point to a entry point in this case index.html	
+
+npx parce-bundler src/index.html
+
+-- Enable HMR
+
+use this on your script file.
+
+if(module.hot) {
+    module.hot.accept();
+}
+
+
+-- Deb & Prod NPM scripts
+
+npm init -y
+npm i -D parcel-bundler
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
